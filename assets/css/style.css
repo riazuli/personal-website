@@ -68,6 +68,12 @@ button:focus {
   background-position: center center;
   padding: 120px 0px;
 }
+.client-area {
+  background-image: url(../img/footer-bg.png);
+  background-size: cover;
+  background-position: center center;
+  padding: 120px 0px;
+}
 
 .half-width {
   float: left;
