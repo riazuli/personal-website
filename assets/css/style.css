@@ -52,25 +52,44 @@ button:focus {
 
 .top-area {
   background-image: url(../img/header-bg.png);
+  background-size: cover;
   background-position: center center;
   padding: 70px 0px;
+}
+.biography-area {
+  background-image: url(../img/biography-bg.png);
+  background-size: cover;
+  background-position: center center;
+  padding: 70px 0px;
+}
+.work-area {
+  background-image: url(../img/latest-work-bg.png);
+  background-size: cover;
+  background-position: center center;
+  padding: 120px 0px;
 }
 
 .half-width {
   float: left;
   width: 50%;
 }
+.third-width {
+  width: 33.3333%;
+  float: left;
+}
 
 .text-content {
   padding-top: 150px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .text-content h4 {
-  font-size: 20px;
+  font-size: 28px;
 }
 
 .text-content h2 {
-  font-size: 40px;
+  font-size: 48px;
   color: #ec4c7a;
 }
 
@@ -95,4 +114,27 @@ button:focus {
 .button:hover {
   background-color: #333;
   color: #ffc91d;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-center h2 {
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.work-photo {
+  padding: 20px;
+  overflow: hidden;
+}
+
+.work-photo img {
+  transition: all 0.3s ease;
+  opacity: 1;
+}
+
+.work-photo:hover img {
+  opacity: 0.8;
 }
